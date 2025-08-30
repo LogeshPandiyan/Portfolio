@@ -1,11 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 *{
      padding: 0;
      margin: 0;
      box-sizing: border-box;
 }
+
 :root{
      --primary-color:#a230ed;
      --primary-color-dark:#8b13dc;
@@ -14,11 +16,13 @@
      --text-light:#6b7280;
      --extra-light:#faf5ff;
  }
+
  body{
      font-family: Arial, Helvetica, sans-serif;
      background-color: var(--extra-light);
      user-select: none;
  }
+
 header{
      height: 80px;
      display: flex;
@@ -29,16 +33,19 @@ header{
      position: sticky;
      top: 0;
 }
+
 header h1{
      margin-left: 20px;
      color: var(--text-color);
      font-family: Pacifico ,sans-serif;
 }
+
 h1 span{
      color: var(--primary-color);
      font-family: Pacifico ,sans-serif;
 
 }
+
 nav {
      display: flex;
      justify-content: center;
@@ -54,15 +61,18 @@ nav {
      border-radius: 5px;
      transition: background-color 0.3s ease;
  }
+
  .nav .active a{
     color: var(--primary-color);
  }
+
  nav a:hover {
      background-color:var(--primary-color);
      color: white;
      border-radius: 5px;
      transition: .4s;
  }
+
  #btn{
      padding: 10px;
      margin-right: 20px;
@@ -73,6 +83,7 @@ nav {
      border: none;
      font-size: 18px;
  }
+
  #btn:hover{
      background: transparent;
      color: var(--text-color);
@@ -80,9 +91,11 @@ nav {
      cursor: pointer;
      transition: .4s;
  }
+
  .section{
      background-color:var(--extra-light);
  }
+
  .section-container{
      min-height: 100vh;
      margin: auto;
@@ -98,18 +111,21 @@ nav {
      justify-content: center;
      margin-left:50px;
  }
+
  .subtitle{
      font-size: 35px;
      letter-spacing: 1px;
      color: var(--text-color);
      font-weight: 600;
  }
+
  .title{
      font-size: 2rem;
      font-weight: 400;
      line-height: 3rem;
      color: var(--text-light);
  }
+
  .title span{
      font-weight: 600;
      font-size: 2rem;
